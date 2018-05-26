@@ -1,0 +1,44 @@
+<view>
+    <view class='change-list'>
+        <view class='change-state'>
+            <text>售后单号: <text>20180115</text></text>
+            <text class='change-complete'>已完成</text>
+        </view>
+        <view class='change-state'>
+            <text>您的售后单 <text>20180215</text> 财务已退款，请注意查收</text>
+            <image src='/images/arrow-right.png' class='arrow-right'></image>
+        </view>
+        <view class='fight-groups'>
+            <image src='/images/shopping-img2.jpg'></image>
+            <view class='shopping-info-words'>
+                <text class='common-hidden'>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g良品铺子良品铺子良品铺子良品铺子良品铺子</text>
+                <text class='change-time'>申请时间<text>2018-01-15 15:22</text></text>
+            </view>
+        </view>
+        <view class='order-agian'>
+            <text catchtap='onRefund'>退款详情</text>
+            <text catchtap='onInquiry'>进度查询</text>
+        </view>
+    </view> 
+    <view class='change-list'>
+        <view class='change-state'>
+            <text>售后单号: <text>20180115</text> </text>
+            <text class='change-complete'>售后单关闭</text>
+        </view>
+        <view class='change-state'>
+            <text>您的售后单 <text>20180215</text> 被审核不通过</text>
+            <image src='/images/arrow-right.png' class='arrow-right'></image>
+        </view>
+        <view class='fight-groups'>
+            <image src='/images/shopping-img2.jpg'></image>
+            <view class='shopping-info-words'>
+                <text class='common-hidden'>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g良品铺子良品铺子良品铺子良品铺子良品铺子</text>
+                <text class='change-time'>申请时间<text>2018-01-15 15:22</text></text>
+            </view>
+        </view>
+        <view class='order-agian'>
+            <text>退款详情</text>
+            <text>进度查询</text>
+        </view>
+    </view> 
+</view>

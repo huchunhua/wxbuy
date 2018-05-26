@@ -1,0 +1,15 @@
+<view>
+    <view class='me-info' catchtap='onLogin'>
+        <image src='/images/default-img.png' class='me-phone'></image>
+        <text>登录/注册</text>
+    </view>
+    <view class='service-box'>
+        <view>
+            <text class='me-title'>客服电话：028-83585711</text>
+            <text>(服务时间：周一之周五9:00-17:00)</text>
+        </view>
+        <image src='/images/arrow-right.png' class='arrow-right'></image> 
+    </view> 
+</view>
+
+    

@@ -1,0 +1,132 @@
+<view class='shopping-content'>
+    <swiper class='slide' autoplay='true' indicator-dots='true' interval='2000'>
+        <swiper-item>
+            <image src='/images/shopping-img2.jpg' class='shopping-details'></image>
+        </swiper-item>
+        <swiper-item>
+            <image src='/images/shopping-img2.jpg' class='shopping-details'></image>
+        </swiper-item>
+        <swiper-item>
+            <image src='/images/shopping-img2.jpg' class='shopping-details'></image>
+        </swiper-item>
+    </swiper>
+    <view class='shopping-title'>
+        <text>良品铺子 坚果零食 碧根果 奶香口味 办公司休闲零食 袋装208g</text>
+        <text class='index-price'>¥18.9</text>
+    </view>
+    <view class='postage'>
+        <text>邮费：</text><text>5元</text>
+        <text class='this-sales'>月销500笔</text>
+    </view>
+    <view class='this-shopping'>
+        <image src='/images/original.png' class='this-logo'></image>
+        <button catchtap='onShop'>进店逛逛</button>
+    </view>
+    <view class='details-info'>
+        <image src='/images/details3.jpg'></image>
+        <image src='/images/details2.jpg'></image>
+        <image src='/images/details2.jpg'></image>
+        <image src='/images/details2.jpg'></image>
+    </view>
+    <view class='group-box'>
+        <text class='group-title'>拼团凑一凑</text>
+        <view class='group-list'>
+            <image src='/images/head.png'></image>
+            <view class='group-words'>
+                <text>颜颜 <text>开团</text></text>
+                <text>剩余0天08:44:17 <text>差1人</text></text>
+            </view>
+            <text class='group-button' bindtap='onGroup'>去凑团</text>
+        </view>
+        <view class='group-list'>
+            <image src='/images/head.png'></image>
+            <view class='group-words'>
+                <text>颜颜 <text>开团</text></text>
+                <text>剩余0天08:44:17 <text>差1人</text></text>
+            </view>
+            <text class='group-button'>去凑团</text>
+        </view>
+        <view class='group-list'>
+            <image src='/images/head.png'></image>
+            <view class='group-words'>
+                <text>颜颜 <text>开团</text></text>
+                <text>剩余0天08:44:17 <text>差1人</text></text>
+            </view>
+            <text class='group-button'>去凑团</text>
+        </view>
+        <view class='group-list'>
+            <image src='/images/head.png'></image>
+            <view class='group-words'>
+                <text>颜颜 <text>开团</text></text>
+                <text>剩余0天08:44:17 <text>差1人</text></text>
+            </view>
+            <text class='group-button'>去凑团</text>
+        </view>
+    </view>
+    <view class='index-footer details-footer'>
+        <view class='footer-nav details-footer-nav1'>
+            <text class=''>购物车(<text>13</text>)</text>
+        </view>
+        <view class='footer-nav details-footer-nav2 addfooter'>
+            <text>￥19.73</text>
+            <text>单独购买</text>
+        </view>
+        <view class='footer-nav details-footer-nav3 addfooter'>
+            <text>￥15.73</text>
+            <text>发起拼团</text>
+        </view>
+    </view>
+    <!-- 单独购买时弹出,此刻为隐藏状态 -->
+    <view class='change-tip'>
+        <view class='tip-content'>
+            <image src='/images/shopping-img2.jpg'></image>
+            <text class='tip-content-words'>
+                <text>良品铺子 坚果零食 碧根果 奶香口味 办公司休闲零食 袋装208g</text>
+                <text class='index-price'>¥18.9</text>
+                <text>商品编号：2366556</text>
+            </text>
+        </view>
+        <view class='tip-spec'>
+            <text>规格</text>
+            <view>
+                <text>袋装208g</text>
+                <text class='no-rad'>礼盒装208g</text>
+                <text class='no-right no-rad'>合家欢装208g</text>
+            </view>
+        </view>
+        <view class='tip-num'>
+            <text class='tip-num-title'>数量</text>
+            <view>
+                <text class='this-num'>-</text>
+                <text class='this-num'>1</text>
+                <text class='this-num'>+</text>
+            </view>
+        </view>
+        <text class='ensure'>确定</text>
+    </view>
+   <!-- 发起拼团时弹出，此刻为隐藏状态 -->
+   <view style='display:;'>
+        <view class='tip-content'>
+            <image src='/images/shopping-img2.jpg'></image>
+            <text class='tip-content-words'>
+                <text>良品铺子 坚果零食 碧根果 奶香口味 办公司休闲零食 袋装208g</text>
+                <text class='index-price'>¥18.9</text>
+            </text>
+        </view>
+        <view class='padding-content footer-info'>
+            <view class='act'><text>5人拼单</text><text>(每人最多购买5件)</text></view>
+            <view><text>10人拼单</text><text>(每人最多购买5件)</text></view>
+            <view><text>15人拼单</text><text>(每人最多购买5件)</text></view>
+            <view><text>20人拼单</text><text>(每人最多购买5件)</text></view>
+        </view>
+        <view class='tip-num'>
+            <text class='tip-num-title'>数量</text>
+            <view>
+                <text class='this-num'>-</text>
+                <text class='this-num'>1</text>
+                <text class='this-num'>+</text>
+            </view>
+        </view>
+        <text class='ensure'>确定</text>
+   </view>
+</view>

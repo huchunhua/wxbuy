@@ -1,0 +1,48 @@
+<view>
+    <view class='shop-logo-box'>
+        <image src='/images/original.png'></image>
+        <text>良品铺子专营店</text>
+    </view>
+    <view class='index-content'>
+        <view class='shop-title'>
+            <text class='index-content-title'>全部商品</text>
+            <text class='sort'>默认排序</text>
+        </view>
+        <view class='shopping-content'>
+            <view class='shopping-list' catchtap='onDetails'>
+                <image src='/images/shopping-img2.jpg'></image>
+                <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+                <text class='index-price'>¥ 15.9</text>
+            </view>
+            <view class='shopping-list no-right'>
+                <image src='/images/shopping-img1.jpg'></image>
+                <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+                <text class='index-price'>¥ 15.9</text>
+            </view>
+        </view>   
+        <view class='shopping-content'>
+            <view class='shopping-list' catchtap='onDetails'>
+                <image src='/images/shopping-img2.jpg'></image>
+                <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+                <text class='index-price'>¥ 15.9</text>
+            </view>
+            <view class='shopping-list no-right'>
+                <image src='/images/shopping-img1.jpg'></image>
+                <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+                <text class='index-price'>¥ 15.9</text>
+            </view>
+        </view>  
+        <view class='shopping-content'>
+            <view class='shopping-list' catchtap='onDetails'>
+                <image src='/images/shopping-img2.jpg'></image>
+                <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+                <text class='index-price'>¥ 15.9</text>
+            </view>
+            <view class='shopping-list no-right'>
+                <image src='/images/shopping-img1.jpg'></image>
+                <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+                <text class='index-price'>¥ 15.9</text>
+            </view>
+        </view> 
+    </view>
+</view>

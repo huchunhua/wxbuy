@@ -1,0 +1,131 @@
+page {
+    overflow-y: scroll;
+}
+.order-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20rpx;
+    background-color: #ffffff;
+}
+.order-neme {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 15rpx 0;
+    height: 50rpx;
+    border-bottom: 1rpx solid #f2f2f2;
+}
+.order-neme .shopping-logo {
+    width: 140rpx;
+    height: 40rpx;
+    position: absolute;
+    left: 24rpx;
+}
+.order-status {
+    position: absolute;
+    right: 24rpx;
+}
+.order-status text {
+    line-height: 50rpx;
+    font-size: 26rpx;
+    color: #ff3333;
+}
+.order-status image {
+    width: 40rpx;
+    height: 40rpx;
+    vertical-align: middle;
+    margin-left: 20rpx;
+}
+.order-detaiis {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    padding: 20rpx 24rpx;
+}
+.order-detaiis image {
+    width: 150rpx;
+    height: 120rpx;
+    margin-right: 5%;
+}
+.order-detaiis text {
+    width: 72%;
+    text-align: justify; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.order-num {
+    height: 70rpx;
+    line-height: 70rpx;
+    border-bottom: 1px solid #dddddd;
+    text-align: right;
+    padding-right: 24rpx;
+}
+.order-pay {
+    margin-left: 30rpx;
+    font-size: 26rpx;
+}
+.order-pay text {
+    font-size: 32rpx;
+    color: #ff3333;
+    font-weight: 700;
+}
+.evalute-icon {
+    margin-left: 24rpx;
+    padding: 5px 0;
+}
+.evalute-icon text {
+    margin-right: 24rpx;
+    line-height: 30rpx;
+}
+.evalute-icon image {
+    width: 30rpx;
+    height: 30rpx;
+    margin: 0 10rpx 0 10rpx;
+}
+.evalute-info {
+    border-top: 20rpx solid #f2f2f2;
+    margin-top: 20rpx;
+    padding-top: 20rpx;
+}
+.evalute-info  text, .evalute-title {
+    margin-left: 24rpx;
+}
+.evalute-info textarea {
+    margin-left: 3%;
+    margin-top: 10rpx;
+    border: 1px solid #ddd;
+    width:91%;
+    padding: 10rpx;
+    height: 200rpx;
+    overflow-y: scroll;
+}
+.evalute-title {
+    padding-top: 20rpx;
+}
+.evalute-img image {
+    width: 130rpx;
+    height: 130rpx;
+    margin-right: 20rpx;
+    margin-top: 20rpx;
+}
+.muted {
+    color: #999;
+}
+.checbox-box {
+    margin-top: 20rpx;
+    margin-left: 24rpx;
+}
+.ensure {
+    display: block;
+    width:100%;
+    background-color:#dc2f37;
+    color:#ffffff;
+    height:98rpx;
+    line-height:98rpx;
+    text-align:center;
+    bottom: 0;
+    border-radius: 0;
+    margin-top: 20rpx;
+}

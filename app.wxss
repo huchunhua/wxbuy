@@ -1,0 +1,74 @@
+page {
+    font-size: 28rpx;
+    color: #333333;
+}
+.index-footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 98rpx;
+    color: #333333;
+}
+.footer-nav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+.footer-nav image {
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 20rpx;
+    margin-bottom: 10rpx;
+}
+.footer-nav text {
+    font-size: 30rpx;
+}
+.footer-nav .this-page {
+     color: #f00; 
+}
+.no-right {
+    margin-right: 0!important;
+}
+.index-price {
+    color: #ff3333!important;
+    font-weight: 700!important;
+    display: block!important;
+    font-size: 32rpx!important;
+}
+.no-rad {
+    border: 1px solid #dddddd!important;
+}
+.navigator-hover text {
+    color: #ff3333;
+}
+.other-navigator-hover text {
+    color: #333333;
+}
+.arrow-right {
+    width: 30rpx;
+    height: 30rpx;
+    position: absolute;
+    right: 24rpx; 
+    margin-top: 29rpx;
+}
+.me-title {
+    font-size: 30rpx;
+    font-weight: 700;
+}
+.no-border {
+    
+}
+.no-border-bottom {
+    border-bottom: none!important;
+}
+.common-hidden {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}

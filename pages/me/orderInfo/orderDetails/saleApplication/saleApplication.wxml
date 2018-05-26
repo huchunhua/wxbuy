@@ -1,0 +1,46 @@
+<view>
+    <view class='fight-groups'>
+        <image src='/images/shopping-img2.jpg'></image>
+        <view class='shopping-info-words'>
+            <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+            <text class='sale-words'>数量：<text>* 1</text></text>
+            <text class='sale-words'>价格：<text>¥15.9</text></text>
+        </view>
+    </view>
+    <view class='apply-box'>
+        <text>服务类型</text>
+        <view class='apply-button'>
+            <text class='act'>退货</text>
+            <text>换货</text>
+        </view>
+    </view>
+    <view class='apply-num'>
+        <text class='apply-num-title'>申请数量</text>
+        <view class='shopping-info-button'>
+            <text class='this-num'>-</text>
+            <text class='this-num'>1</text>
+            <text class='this-num'>+</text>
+        </view>
+    </view>
+    <view class='describe-box'>
+        <text class='describe-title'>问题描述</text>
+        <view class='describe-content'>
+            <textarea class='describe-words' placeholder='请您在此描述详细问题'></textarea>
+            <text class='describe-num'><text>0</text>/500</text>
+        </view>
+    </view>
+    <view class='up-box'>
+        <text class='up-title'>上传照片</text>
+        <view class='up-picture'>
+            <image src='/images/up-picture.png'></image>
+            <image src='/images/up.jpg'></image>
+            <image src='/images/up.jpg'></image>
+            <image src='/images/up.jpg'></image>
+            <image src='/images/up.jpg'></image>
+        </view>
+        <text class='up-tip'>为了帮助我们更好的解决问题，请上传照片，最多5张，每张不超过5M，支持JPG，PNG</text>
+    </view>
+    <view class='ensure-up'>
+        <button>提交</button>
+    </view>
+</view>

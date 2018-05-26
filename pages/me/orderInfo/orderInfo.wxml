@@ -1,0 +1,132 @@
+<view>
+    <view class="swiper-tab">  
+        <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">全部订单</view>  
+        <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">待付款</view>  
+        <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">待收货</view>  
+    </view>
+
+    <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">  
+        <!-- 全部订单 -->  
+        <swiper-item>  
+             <view class='order-list'>
+                <view class='order-neme'>
+                    <image src='/images/shopping-logo.jpg' class='shopping-logo'></image>
+                    <view class='order-status'>
+                        <text>已完成</text>
+                        <image src='/images/delete.png'></image>
+                    </view>
+                </view>
+                <view class='order-detaiis' catchtap='onOrderDetails'>
+                    <image src='/images/shopping-img2.jpg'></image>
+                    <text>佰草集(HERBORISRT)水油平衡护肤套装(洗面奶爽肤水化妆水保湿化妆品套装)水油平衡护肤套装水油平衡护肤套装水油平衡护肤套装</text>
+                </view>
+                <view class='order-num'>
+                    <text class='order-pay'>共 <text>1</text> 件商品</text>
+                    <text class='order-pay'>实付款 <text>¥355.00</text></text>
+                </view>
+                <view class='order-agian'>
+                    <text>再次购买</text>
+                </view>
+             </view>
+             <view class='order-list'>
+                <view class='order-neme'>
+                    <image src='/images/shopping-logo.jpg' class='shopping-logo'></image>
+                    <view class='order-status'>
+                        <text>已完成</text>
+                        <image src='/images/delete.png'></image>
+                    </view>
+                </view>
+                <view class='order-detaiis'>
+                    <image src='/images/shopping-img2.jpg'></image>
+                    <image src='/images/shopping-img2.jpg'></image>
+                    <image src='/images/shopping-img2.jpg'></image>
+                </view>
+                <view class='order-num'>
+                    <text class='order-pay'>共 <text>3</text> 件商品</text>
+                    <text class='order-pay'>实付款 <text>¥355.00</text></text>
+                </view>
+                <view class='order-agian'>
+                    <text>再次购买</text>
+                </view>
+             </view>
+             <view class='most-order'>
+                <image src='/images/no-order.png'></image>
+                <text>您没有更多订单了</text>
+             </view>
+        </swiper-item>  
+        <!-- 待付款 -->  
+        <swiper-item>  
+            <view class='order-list'>
+                <view class='order-neme'>
+                    <image src='/images/shopping-logo.jpg' class='shopping-logo'></image>
+                    <view class='order-status'>
+                        <text>待付款</text>
+                        <image src='/images/delete.png'></image>
+                    </view>
+                </view>
+                <view class='order-detaiis'>
+                    <image src='/images/shopping-img2.jpg'></image>
+                    <text>佰草集(HERBORISRT)水油平衡护肤套装(洗面奶爽肤水化妆水保湿化妆品套装)水油平衡护肤套装水油平衡护肤套装水油平衡护肤套装</text>
+                </view>
+                <view class='order-num'>
+                    <text class='order-pay'>共 <text>1</text> 件商品</text>
+                    <text class='order-pay'>实付款 <text>¥355.00</text></text>
+                </view>
+                <view class='order-agian'>
+                    <text>去付款</text>
+                </view>
+             </view>
+             <view class='most-order'>
+                <image src='/images/no-order.png'></image>
+                <text>您还没有订单</text>
+             </view>
+        </swiper-item>  
+        <!-- 待收货 -->  
+        <swiper-item>  
+            <view class='order-list'>
+                <view class='order-neme'>
+                    <image src='/images/shopping-logo.jpg' class='shopping-logo'></image>
+                    <view class='order-status'>
+                        <text>待收货</text>
+                        <image src='/images/delete.png'></image>
+                    </view>
+                </view>
+                <view class='order-detaiis'>
+                    <image src='/images/shopping-img2.jpg'></image>
+                    <text>佰草集(HERBORISRT)水油平衡护肤套装(洗面奶爽肤水化妆水保湿化妆品套装)水油平衡护肤套装水油平衡护肤套装水油平衡护肤套装</text>
+                </view>
+                <view class='order-num'>
+                    <text class='order-pay'>共 <text>1</text> 件商品</text>
+                    <text class='order-pay'>实付款 <text>¥355.00</text></text>
+                </view>
+                <view class='order-agian'>
+                    <text>物流追踪</text>
+                </view>
+             </view>
+             <view class='order-list'>
+                <view class='order-neme'>
+                    <image src='/images/shopping-logo.jpg' class='shopping-logo'></image>
+                    <view class='order-status'>
+                        <text>待收货</text>
+                        <image src='/images/delete.png'></image>
+                    </view>
+                </view>
+                <view class='order-detaiis'>
+                    <image src='/images/shopping-img2.jpg'></image>
+                    <text>佰草集(HERBORISRT)水油平衡护肤套装(洗面奶爽肤水化妆水保湿化妆品套装)</text>
+                </view>
+                <view class='order-num'>
+                    <text class='order-pay'>共 <text>1</text> 件商品</text>
+                    <text class='order-pay'>实付款 <text>¥355.00</text></text>
+                </view>
+                <view class='order-agian'>
+                    <text>物流追踪</text>
+                </view>
+             </view>
+             <view class='most-order'>
+                <image src='/images/no-order.png'></image>
+                <text>您还没有订单</text>
+             </view>
+        </swiper-item>  
+    </swiper>  
+</view>

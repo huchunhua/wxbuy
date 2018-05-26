@@ -1,0 +1,53 @@
+<view class='evalute'>
+    <view class='order-list'>
+        <view class='order-neme'>
+            <image src='/images/shopping-logo.jpg' class='shopping-logo'></image>
+        </view>
+        <view class='order-detaiis' catchtap='onOrderDetails'>
+            <image src='/images/shopping-img2.jpg'></image>
+            <text>佰草集(HERBORISRT)水油平衡护肤套装(洗面奶爽肤水化妆水保湿化妆品套装)水油平衡护肤套装水油平衡护肤套装水油平衡护肤套装</text>
+        </view>
+        <view class='order-num'>
+            <text class='order-pay'>共 <text>1</text> 件商品</text>
+            <text class='order-pay'>实付款 <text>¥355.00</text></text>
+        </view>
+    </view>
+    <view>
+        <view class='evalute-icon'>
+            <text>描述相符</text>
+            <image src='/images/index-r.png'></image>
+            <image src='/images/index-r.png'></image>
+        </view>
+        <view class='evalute-icon'>
+            <text>卖家服务</text>
+            <image src='/images/index-r.png'></image>
+            <image src='/images/index-r.png'></image>
+        </view>
+        <view class='evalute-icon'>
+            <text>物流服务</text>
+            <image src='/images/index-r.png'></image>
+            <image src='/images/index-r.png'></image>
+        </view>
+    </view>
+    <view class='evalute-info'>
+        <text>评价商品</text>
+        <textarea placeholder='请输入对该商品的评价'></textarea>
+    </view>
+    <view class='evalute-title'>
+        <text>晒图片</text>
+        <view class='evalute-img'>
+            <image src='/images/shopping-img.jpg'></image>
+            <image src='/images/shopping-img.jpg'></image>
+            <text class='muted'>(1/5)</text>
+        </view>
+        <text class='muted'>选择图片上传，最多可选择5张</text>
+    </view>
+    <view class='checbox-box'>
+        <checkbox-group>
+            <label class="checkbox">
+                <checkbox />匿名评论
+            </label>
+        </checkbox-group>
+    </view>
+    <text class='ensure'>提交评价</text>
+</view>

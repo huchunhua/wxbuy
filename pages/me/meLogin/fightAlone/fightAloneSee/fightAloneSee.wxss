@@ -1,0 +1,56 @@
+page {
+    background-color: #f2f2f2;
+}
+.head-box {
+    position: relative;
+    margin-right: 20rpx;
+}
+.head-box, .head-box image {
+    width: 80rpx;
+    height: 80rpx;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.head {
+    display: inline-block;
+}
+.head image {
+    width: 80rpx;
+    height: 80rpx;
+    background-color: #ffffff;
+    border-radius: 50%; 
+    margin-right: 20rpx;
+    /* background-size: cover; */
+}
+.head-box image {
+    border: 1px solid #ff6633;
+    box-sizing: border-box;
+}
+.head-box text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 22rpx;
+    background-color: #ff6633;
+    border-radius: 15rpx;
+    color: #ffffff;
+    padding: 0 5rpx;
+}
+.head-content {
+    padding: 60rpx 24rpx;
+    text-align: center;
+}
+.head-title {
+    display: block;
+}
+button {
+    width: 60%;
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 24rpx;
+    margin-top: 20rpx;
+}
+.act {
+    background-color: #dc2f37;
+    color: #ffffff;
+}

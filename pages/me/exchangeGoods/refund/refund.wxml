@@ -1,0 +1,40 @@
+<view>
+    <view class='change-list'>
+        <view class='change-state'>
+            <text>售后单号: <text>20180115</text></text>
+            <text class='change-complete'>已完成</text>
+        </view>
+        <view class='change-state no-border'>
+            <text class='change-words'>审核进度：您的售后单 <text>20180215</text> 财务已退款，请注意查收</text>
+            <image src='/images/arrow-right.png' class='arrow-right'></image>
+        </view>
+    </view> 
+    <view class='change-list'>
+        <view class='change-state'>
+            <text>退款金额: </text>
+            <text class='change-complete'>¥15.9</text>
+        </view>
+        <view class='change-state change-g no-border'>
+            <text>退回至原支付卡</text>
+            <text class='change-complete'>¥15.9</text>
+        </view>
+    </view> 
+    <view class='change-list'>
+        <view class='change-state'>
+            <text>问题描述 </text>
+        </view>
+        <view class='change-state change-input no-border'>
+            <text>不喜欢，申请退货</text>
+            <text class='change-input-time'>2018-01-13 17:32:05</text>
+        </view>
+    </view>
+    <view class='change-list'>
+        <view class='change-state'>
+            <text>审核留言 </text>
+        </view>
+        <view class='change-state change-input no-border'>
+            <text>审核留言的内容</text>
+            <text class='change-input-time'>2018-01-13 17:32:05</text>
+        </view>
+    </view>
+</view>

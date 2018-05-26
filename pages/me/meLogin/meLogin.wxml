@@ -1,0 +1,58 @@
+<view>
+    <view class='me-info' catchtap='onLogin'>
+        <image src='/images/head.png' class='me-phone'></image>
+        <text>好简单</text>
+        <text class='wechat'>已绑定微信</text>
+    </view>
+    <view class='my-order'>
+        <view class='all-order' catchtap='onAllOrder'>
+            <text class='me-title'>我的订单</text>
+            <text class='view-order'>
+                <text>查看订单</text>
+            </text>
+            <image src='/images/arrow-right.png' class='arrow-right most-right'></image>
+        </view>
+        <view class='classify'>
+            <view>
+                <image src='/images/my-pay.png'></image>
+                <text catchtap='onAllOrder'>待付款</text>
+            </view>
+            <view>
+                <image src='/images/my-goods.png'></image>
+                <text catchtap='onAllOrder'>待收货</text>
+            </view>
+            <view>
+                <image src='/images/my-sale.png'></image>
+                <text catchtap='onChangeOrder'>售后订单</text>
+            </view>
+            
+        </view>
+    </view>
+    <view class='my-info-content'>
+        <!-- <view class='my-info-list' catchtap='onMyShooping'>
+            <image src='/images/my-shopping.png'></image>
+            <text catchtap='onMyShooping'>我的购物车</text>
+            <image src='/images/arrow-right.png' class='arrow-right'></image>
+        </view> -->
+        <view class='my-info-list' catchtap='onFightAlone'>
+            <image src='/images/my-address.png'></image>
+            <text>我的拼单</text>
+            <image src='/images/arrow-right.png' class='arrow-right'></image>
+        </view>
+        <view class='my-info-list no-border-bottom' catchtap='onAddress'>
+            <image src='/images/my-address.png'></image>
+            <text >收货地址</text>
+            <image src='/images/arrow-right.png' class='arrow-right'></image>
+        </view>
+    </view>
+    <view class='service-box'>
+        <view>
+            <text class='me-title'>客服电话：028-83585711</text>
+            <text>(服务时间：周一之周五9:00-17:00)</text>
+        </view>
+        <image src='/images/arrow-right.png' class='arrow-right'></image> 
+    </view> 
+    <text class='add-groups sign-out'>退出登录</text>
+</view>
+
+    

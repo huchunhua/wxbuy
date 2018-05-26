@@ -1,0 +1,30 @@
+page {
+    background-color: #f2f2f2;
+}
+.me-info {
+    height: 300rpx;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+}
+.me-info image {
+    width: 160rpx;
+    height: 160rpx;
+    border-radius: 50%;
+    margin: 20rpx auto;
+}
+.me-info text {
+    line-height: 50rpx;
+}
+.service-box {
+    background-color: #ffffff;
+    margin-top: 20rpx;
+    padding: 20rpx 24rpx;
+    display: flex;
+    flex-direction: row;
+}
+.service-box view {
+    display: flex;
+    flex-direction: column;
+}

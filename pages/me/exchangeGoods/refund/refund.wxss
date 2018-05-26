@@ -1,0 +1,51 @@
+page {
+    background-color: #f2f2f2;
+}
+.change-list {
+    padding: 0 24rpx;
+    background-color: #ffffff;
+    margin-bottom: 20rpx;
+    background-color: #ffffff;
+}
+.change-state {
+    line-height: 80rpx; 
+    border-bottom: 1px solid #f2f2f2;
+    position: relative;
+}
+.change-words {
+    line-height: 80rpx;
+}
+.arrow-right {
+    /* margin-top: 20rpx; */
+    right: 0;
+}
+.change-complete {
+    position: absolute;
+    right: 24rpx;
+    color: #ff3333;
+}
+.change-list text {
+    font-size: 26rpx; 
+}
+.change-words {
+    display: inline-block;
+    width: 92%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.change-g text {
+    color: #808080;
+}
+.change-input {
+    height: 130rpx;
+    display: flex;
+    flex-direction: column;
+}
+
+.change-input-time {
+    color: #808080;
+    line-height: 40rpx;
+    padding-bottom: 20rpx;
+    font-size: 24rpx!important;
+}

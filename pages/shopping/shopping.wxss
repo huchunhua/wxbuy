@@ -1,0 +1,78 @@
+.this-num {
+    width: 50rpx!important;
+    height: 50rpx;
+    line-height: 50rpx;
+    text-align: center;
+    border: 1px solid #dddddd;
+    display: inline-block;
+}
+.shopping-info-list {
+    display: flex;
+    flex-direction: row;
+    padding: 20rpx 24rpx;
+    height: 180rpx;
+    border-bottom: 1px solid #f2f2f2;
+}
+.shopping-info-list image {
+    width: 20%;
+    height: 100rpx;
+    margin: 20rpx 20rpx;
+}
+.shopping-info-words {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.shopping-info-num {
+    position: relative;
+}
+.shopping-info-price {
+    position: absolute;
+}
+.shopping-info-button {
+    position: absolute;
+    right: 24rpx;
+}
+.shopping-info-list icon {
+    margin-top: 40rpx;
+}
+.settlement-box {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 98rpx;
+    background-color: #ffffff;
+    border-top: 1px solid #dddddd;
+    display: flex;
+    flex-direction: row;
+    line-height: 98rpx;
+}
+.settlement-box text {
+    line-height: 98rpx;
+}
+.settlement-box icon {
+    margin: 20rpx 5rpx 0 24rpx;
+
+}
+.settlement-price {
+    margin-left: 10%;
+    font-size: 28rpx;
+    color: #333333;
+    line-height: 98rpx;
+}
+.settlement-price  text {
+    line-height: 68rpx!important;
+}
+.all-price {
+    font-size: 34rpx;
+    color: #ff3333;
+    font-weight: 700;
+}
+.go-settlement {
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 30%;
+    color: #ffffff;
+    background-color: #dc2f37;
+}

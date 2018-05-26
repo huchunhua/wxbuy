@@ -1,0 +1,20 @@
+<view class='search-page'>
+    <view class='search-input'>
+        <input placeholder='搜索天府购商品' type="search" autofocus="autofocus"></input>
+        <button>搜索</button>
+    </view>
+    <view class='search-info'>
+        <view class='search-info-title'>
+            <text class='info-title1'>热门搜索</text>
+            <text class='info-title2'>换一批</text>
+        </view>
+        <view class='search-info-content'>
+            <view hover-class="color_red">连衣裙</view>
+            <view hover-class="color_red">羽绒服</view>
+            <view hover-class="color_red">半身裙</view>
+            <view class='no-right' hover-class="color_red">打底裤</view>
+            <view hover-class="color_red">核桃</view>
+            <view hover-class="color_red">葡萄干</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,83 @@
+page {
+    background-color: #f2f2f2;
+}
+.address-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin-bottom: 20rpx;
+    padding: 0 24rpx;
+}
+.address-info {
+    display: flex;
+    flex-direction: column;
+    padding: 20rpx 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+.address-info text {
+    font-size: 30rpx;
+}
+.address-info text text {
+    margin-left: 20rpx;
+    font-size: 26rpx;
+}
+.address-info .address-details {
+    color: #8B8989;
+    font-size: 26rpx;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.default-words image {
+    width: 30rpx;
+    height: 30rpx;
+}
+.default-address {
+    position: relative;
+    padding: 20rpx 0;
+    color: #8B8989;
+    font-size: 26rpx;
+}
+.default-edit {
+    position: absolute;
+    right: 24rpx;
+    margin-top: -40rpx;
+    display: flex;
+    flex-direction: row;
+}
+.default-edit image {
+    width: 34rpx;
+    height: 34rpx;
+    vertical-align: middle; 
+}
+.default-edit text {
+    line-height: 34rpx;
+    padding-top: 5rpx;
+    margin-left: 10rpx;
+    margin-right: 20rpx;
+}
+.default-words {
+    display: flex;
+    flex-direction: row;
+}
+.default-words text {
+    margin-left: 20rpx;
+}
+.add-groups {
+    display: block;
+    width: 100%;  
+    height: 78rpx;
+    line-height: 78rpx;
+    background-color: #ff3333;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30rpx;
+}
+.add-address-box {
+    margin: 0 2%;
+    position: fixed;
+    bottom: 20rpx;
+    width: 96%;
+    overflow: hidden;
+}

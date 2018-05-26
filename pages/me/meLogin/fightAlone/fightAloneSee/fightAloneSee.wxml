@@ -1,0 +1,11 @@
+<view class='head-content'>
+    <view class='head-box head'>
+        <image src="/images/head.png"></image>
+        <text>拼主</text>
+    </view>
+    <view class='head'><image src="/images/head.png"></image></view>
+    <view class='head'><image src="/images/head.png"></image></view>
+    <view class='head'><image src="/images/default-img.png"></image></view>
+    <button class='act'>去首页逛逛</button>
+    <button>查看订单详情</button>
+</view>

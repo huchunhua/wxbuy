@@ -1,0 +1,132 @@
+page {
+    background-color: #f2f2f2;
+}
+.this-shopping {
+    padding: 20rpx 0;
+    position: relative;
+    height: 60rpx;
+    border-bottom: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+.this-logo {
+    width: 40%;
+    height: 60rpx;
+    position: absolute;
+    left: 24rpx;
+}
+.fight-groups {
+    display: flex;
+    flex-direction: row;
+    padding: 20rpx 24rpx;
+    background-color: #f2f2f2;
+}
+.fight-groups image {
+    width: 40%;
+    height: 180rpx;
+}
+.this-num {
+    width: 50rpx!important;
+    height: 50rpx;
+    line-height: 50rpx;
+    text-align: center;
+    border: 1px solid #dddddd;
+    display: inline-block;
+    background-color: #ffffff!important;
+}
+.address-box {
+    display: flex;
+    flex-direction: row;
+    padding: 20rpx 24rpx;
+    text-align: center;
+    border-bottom: 2px dashed #dddddd;
+    background-color: #ffffff;
+}
+.address-box icon {
+    margin-right: 5%;
+    margin-top: 10rpx;
+}
+.address-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}
+.this-shopping text {
+    margin-left: 50%;
+    line-height: 60rpx;
+}
+.fight-groups {
+    background-color: #f2f2f2;
+}
+.shopping-info-words {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 5%;
+}
+.shopping-info-num {
+    display: flex;
+    flex-direction: row;
+    padding: 20rpx 24rpx;
+    line-height: 50rpx;
+    position: relative;
+    height: 60rpx;
+    background-color: #ffffff;
+}
+.shopping-info-price {
+    position: absolute;
+}
+.shopping-info-button {
+    position: absolute;
+    right: 24rpx;
+}
+.this-num {
+    background-color: #eeeeee;
+}
+.pay-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20rpx 24rpx;
+    background-color: #ffffff;
+    margin-top: 20rpx;
+}
+.pay-content .pay-content-list {
+    position: relative;
+    line-height: 60rpx;
+}
+.pay-content .pay-content-list .pay-content-price {
+    position: absolute;
+    right: 24rpx;
+    color: #ff3333;
+}
+.all-pay {
+    position: relative;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    border-top: 1px solid #f2f2f2;
+    padding-top: 20rpx;
+}
+.all-pay text {
+    font-size: 24rpx;
+    color: #4d4d4d;
+}
+.all-pay .all-price {
+    color: #ff3333;
+    font-size: 34rpx;
+    margin-left: 20rpx;
+    font-weight: 700;
+}
+.add-groups {
+    margin-top: 100rpx;
+    display: block;
+    width: 100%;
+    height: 98rpx;
+    line-height: 98rpx;
+    background-color: #dc2f37;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30rpx;
+    position: fixed;
+    bottom: 0;
+}

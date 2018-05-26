@@ -1,0 +1,45 @@
+<view>
+    <view class='address-box' catchtap='onAddress'>
+        <icon type='success' size='20'></icon>
+        <view class='address-info'>
+            <text>颜颜<text></text>1851770267</text>
+            <text>四川省成都市高新区天府大道</text>
+        </view>
+        <image src='/images/arrow-right.png' class='arrow-right'></image>
+    </view>
+    <view class='this-shopping'>
+        <image src='/images/original.png' class='this-logo'></image>
+        <text>良品铺子专营店</text>
+    </view>
+    <view class='fight-groups'>
+        <image src='/images/shopping-img2.jpg'></image>
+        <view class='shopping-info-words'>
+            <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+            <text>规格：<text>袋装120g</text></text>
+            <text class='index-price'>¥15.9</text>
+        </view>
+    </view>
+    <view class='shopping-info-num'>
+        <text class='shopping-info-price'>购买数量</text>
+        <view class='shopping-info-button'>
+            <text class='this-num'>-</text>
+            <text class='this-num'>1</text>
+            <text class='this-num'>+</text>
+        </view>
+    </view>
+    <view class='pay-content'>
+        <text class='pay-content-list'>
+            <text>商品金额</text>
+            <text class='pay-content-price'>¥15.8</text>
+        </text>
+        <text class='pay-content-list'>
+            <text>运费</text>
+            <text class='pay-content-price'>+¥5.0</text>
+        </text>
+        <text class='all-pay'>
+            <text>总额:</text>
+            <text class='all-price'>¥20.8</text>
+        </text>
+    </view>
+    <text class='add-groups'>微信支付</text>
+</view>

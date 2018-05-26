@@ -1,0 +1,44 @@
+<view>
+    <view class='order-state'>
+        <text>拼单成功</text>
+        <image src="/images/pay-success.png"></image>
+    </view>
+    <view class='goods-info'>
+        <view>
+            <text class='logistics-title'> 收货人：</text>
+            <text>颜颜</text>
+            <text>18515770267</text>
+        </view>
+        <view>
+            <text class='logistics-title'>收获地址：</text>
+            <text>四川省成都市高新区天府五街</text>
+        </view>
+    </view>
+    <view class='head-content'>
+        <view class='head-title'>
+            <text class='logistics-title'>拼单成功</text>
+            <text class='see-info'>查看拼单</text>
+        </view>
+        
+        <view class='head-box head'>
+            <image src="/images/head.png"></image>
+            <text>拼主</text>
+        </view>
+        <view class='head'><image src="/images/head.png"></image></view>
+        <view class='head'><image src="/images/head.png"></image></view>
+        <view class='head'><image src="/images/default-img.png"></image></view>
+    </view>
+    <view class='order-list'>
+        <view class='order-neme'>
+            <image src='/images/shopping-logo.jpg' class='shopping-logo'></image>
+        </view>
+        <view class='order-detaiis' catchtap='onOrderDetails'>
+            <image src='/images/shopping-img2.jpg'></image>
+            <text>佰草集(HERBORISRT)水油平衡护肤套装(洗面奶爽肤水化妆水保湿化妆品套装)水油平衡护肤套装水油平衡护肤套装水油平衡护肤套装</text>
+        </view>
+        <view class='order-num'>
+            <text class='order-pay'>共 <text>1</text> 件商品</text>
+            <text class='order-pay'>实付款 <text>¥355.00</text></text>
+        </view>
+    </view>
+</view>

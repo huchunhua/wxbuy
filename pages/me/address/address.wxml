@@ -1,0 +1,60 @@
+<view>
+    <view class='address-box'>
+        <view class='address-info'>
+            <text>颜颜<text></text>185****0267</text>
+            <text class='address-details'>四川省成都市高新区天府大道</text>
+        </view>
+        <view class='default-address'>
+            <view class='default-words'>
+                <image src='/images/select.png'></image>
+                <text>默认地址</text>
+            </view>
+            <view class='default-edit'>
+                <image src='/images/edit.png'></image>
+                <text>编辑</text>
+                <image src='/images/delete.png'></image>
+                <text class='no-right'>删除</text>
+            </view>
+        </view>
+    </view>
+    <view class='address-box'>
+        <view class='address-info'>
+            <text>红红<text></text>185****0267</text>
+            <text class='address-details'>四川省成都市青羊区人才交流中心</text>
+        </view>
+        <view class='default-address'>
+            <view class='default-words'>
+                <image src='/images/no-select.png'></image>
+                <text>设为默认</text>
+            </view>
+            <view class='default-edit'>
+                <image src='/images/edit.png'></image>
+                <text>编辑</text>
+                <image src='/images/delete.png'></image>
+                <text class='no-right'>删除</text>
+            </view>
+        </view>
+    </view>
+    <view class='address-box'>
+        <view class='address-info'>
+            <text>岚岚<text></text>185****0267</text>
+            <text class='address-details'>四川省德阳市第一中学</text>
+        </view>
+        <view class='default-address'>
+            <view class='default-words'>
+                <image src='/images/no-select.png'></image>
+                <text>设为默认</text>
+            </view>
+            <view class='default-edit'>
+                <image src='/images/edit.png'></image>
+                <text>编辑</text>
+                <image src='/images/delete.png'></image>
+                <text class='no-right'>删除</text>
+            </view>
+        </view>
+    </view>
+    <view class='add-address-box' catchtap='onAdd'>
+        <text class='add-groups'>+ 添加地址</text>
+    </view>
+    
+</view>

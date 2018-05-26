@@ -1,0 +1,129 @@
+page {
+    background-color: #f2f2f2;
+}
+.swiper-tab {  
+    width: 100%;  
+    border-bottom: 2rpx solid #dddddd;  
+    text-align: center;  
+    line-height: 80rpx;
+    background-color: #ffffff;    
+}  
+.swiper-tab-list {  
+    display: inline-block;  
+    width: 33.33%;  
+    color: #4d4d4d;  
+}  
+.on { 
+    color: #ff3333;  
+    border-bottom: 5rpx solid #ff3333;
+}  
+  
+.swiper-box { 
+    display: block; 
+    height: 100%; 
+    width: 100%; 
+    overflow: hidden; 
+}  
+.swiper-box view {  
+    /* text-align: center;   */
+}  
+.order-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20rpx;
+    background-color: #ffffff;
+}
+.order-neme {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 15rpx 0;
+    height: 50rpx;
+    border-bottom: 1rpx solid #f2f2f2;
+}
+.order-neme .shopping-logo {
+    width: 140rpx;
+    height: 40rpx;
+    position: absolute;
+    left: 24rpx;
+}
+.order-status {
+    position: absolute;
+    right: 24rpx;
+}
+.order-status text {
+    line-height: 50rpx;
+    font-size: 26rpx;
+    color: #ff3333;
+}
+.order-status image {
+    width: 40rpx;
+    height: 40rpx;
+    vertical-align: middle;
+    margin-left: 20rpx;
+}
+.order-detaiis {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    padding: 20rpx 24rpx;
+}
+.order-detaiis image {
+    width: 150rpx;
+    height: 120rpx;
+    margin-right: 5%;
+}
+.order-detaiis text {
+    width: 72%;
+    text-align: justify; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.order-num {
+    height: 70rpx;
+    line-height: 70rpx;
+    border-bottom: 1px solid #dddddd;
+    text-align: right;
+    padding-right: 24rpx;
+}
+.order-pay {
+    margin-left: 30rpx;
+    font-size: 26rpx;
+}
+.order-pay text {
+    font-size: 32rpx;
+    color: #ff3333;
+    font-weight: 700;
+}
+.order-agian {
+    text-align: right;
+    padding: 20rpx 24rpx;
+}
+.order-agian text {
+    display: inline-block;
+    text-align: center;
+    width: 160rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    border-radius: 10rpx;
+    font-size: 26rpx;
+    background-color: #ffffff;
+    border: 1px solid #ff3333;
+    color: #ff3333;
+}
+.most-order {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100rpx;
+}
+.most-order image {
+    width:200rpx;
+    height:120rpx;
+    position:relative;
+    left:50%;
+    margin-left:-50px;
+    margin-bottom:20rpx;
+}

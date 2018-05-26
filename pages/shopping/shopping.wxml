@@ -1,0 +1,140 @@
+<view>
+    <view class='shopping-info-list'>
+        <icon type='success' size='20'></icon>
+        <image src='/images/shopping-img2.jpg'></image>
+        <view class='shopping-info-words'>
+            <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+            <text>规格:<text>袋装120g</text></text>
+            <view class='shopping-info-num'>
+                <text class='shopping-info-price index-price'>¥15.9</text>
+                <view class='shopping-info-button'>
+                    <text class='this-num'>-</text>
+                    <text class='this-num'>1</text>
+                    <text class='this-num'>+</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class='shopping-info-list'>
+        <icon type='success' size='20'></icon>
+        <image src='/images/shopping-img2.jpg'></image>
+        <view class='shopping-info-words'>
+            <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+            <text>规格:<text>袋装120g</text></text>
+            <view class='shopping-info-num'>
+                <text class='shopping-info-price index-price'>¥15.9</text>
+                <view class='shopping-info-button'>
+                    <text class='this-num'>-</text>
+                    <text class='this-num'>1</text>
+                    <text class='this-num'>+</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class='shopping-info-list'>
+        <icon type='success' size='20'></icon>
+        <image src='/images/shopping-img2.jpg'></image>
+        <view class='shopping-info-words'>
+            <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+            <text>规格:<text>袋装120g</text></text>
+            <view class='shopping-info-num'>
+                <text class='shopping-info-price index-price'>¥15.9</text>
+                <view class='shopping-info-button'>
+                    <text class='this-num'>-</text>
+                    <text class='this-num'>1</text>
+                    <text class='this-num'>+</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class='shopping-info-list'>
+        <icon type='success' size='20'></icon>
+        <image src='/images/shopping-img2.jpg'></image>
+        <view class='shopping-info-words'>
+            <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+            <text>规格:<text>袋装120g</text></text>
+            <view class='shopping-info-num'>
+                <text class='shopping-info-price index-price'>¥15.9</text>
+                <view class='shopping-info-button'>
+                    <text class='this-num'>-</text>
+                    <text class='this-num'>1</text>
+                    <text class='this-num'>+</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class='shopping-info-list'>
+        <icon type='success' size='20'></icon>
+        <image src='/images/shopping-img2.jpg'></image>
+        <view class='shopping-info-words'>
+            <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+            <text>规格:<text>袋装120g</text></text>
+            <view class='shopping-info-num'>
+                <text class='shopping-info-price index-price'>¥15.9</text>
+                <view class='shopping-info-button'>
+                    <text class='this-num'>-</text>
+                    <text class='this-num'>1</text>
+                    <text class='this-num'>+</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class='shopping-info-list'>
+        <icon type='success' size='20'></icon>
+        <image src='/images/shopping-img2.jpg'></image>
+        <view class='shopping-info-words'>
+            <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+            <text>规格:<text>袋装120g</text></text>
+            <view class='shopping-info-num'>
+                <text class='shopping-info-price index-price'>¥15.9</text>
+                <view class='shopping-info-button'>
+                    <text class='this-num'>-</text>
+                    <text class='this-num'>1</text>
+                    <text class='this-num'>+</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class='shopping-info-list'>
+        <icon type='success' size='20'></icon>
+        <image src='/images/shopping-img2.jpg'></image>
+        <view class='shopping-info-words'>
+            <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+            <text>规格:<text>袋装120g</text></text>
+            <view class='shopping-info-num'>
+                <text class='shopping-info-price index-price'>¥15.9</text>
+                <view class='shopping-info-button'>
+                    <text class='this-num'>-</text>
+                    <text class='this-num'>1</text>
+                    <text class='this-num'>+</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class='shopping-info-list'>
+        <icon type='success' size='20'></icon>
+        <image src='/images/shopping-img2.jpg'></image>
+        <view class='shopping-info-words'>
+            <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+            <text>规格:<text>袋装120g</text></text>
+            <view class='shopping-info-num'>
+                <text class='shopping-info-price index-price'>¥15.9</text>
+                <view class='shopping-info-button'>
+                    <text class='this-num'>-</text>
+                    <text class='this-num'>1</text>
+                    <text class='this-num'>+</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class='settlement-box'>
+        <icon type='success' size='20'></icon>
+        <text>全选</text>
+        <view class='settlement-price'>
+            <text>合计: <text class='all-price'>¥100.00</text></text>
+        </view>
+        <view class='go-settlement' bindtap='onPay'>
+            <text>去结算(<text>4</text>件)</text>
+        </view>
+    </view>
+</view>

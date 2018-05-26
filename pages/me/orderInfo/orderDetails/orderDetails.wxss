@@ -1,0 +1,180 @@
+page {
+    background-color: #f2f2f2;
+}
+
+.order-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20rpx;
+    background-color: #ffffff;
+}
+.order-neme {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 15rpx 0;
+    height: 50rpx;
+    border-bottom: 1rpx solid #dddddd;
+}
+.order-neme .shopping-logo {
+    width: 140rpx;
+    height: 40rpx;
+    position: absolute;
+    left: 24rpx;
+}
+.order-status {
+    position: absolute;
+    right: 24rpx;
+}
+.order-status text {
+    line-height: 50rpx;
+    font-size: 26rpx;
+    color: #808080;
+}
+.order-status image {
+    width: 40rpx;
+    height: 40rpx;
+    vertical-align: middle;
+    margin-left: 20rpx;
+}
+.order-detaiis {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    padding: 20rpx 24rpx;
+}
+.order-detaiis image {
+    width: 150rpx;
+    height: 120rpx;
+    margin-right: 5%;
+}
+.order-detaiis text {
+    width: 72%;
+    text-align: justify; 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.order-num {
+    height: 70rpx;
+    line-height: 70rpx;
+    border-bottom: 1px solid #dddddd;
+    text-align: right;
+    padding-right: 24rpx;
+}
+.order-pay {
+    margin-left: 30rpx;
+    font-size: 26rpx;
+}
+.order-pay text {
+    font-size: 32rpx;
+    color: #ff3333;
+    font-weight: 700;
+}
+.order-agian {
+    text-align: right;
+    padding: 20rpx 24rpx;
+}
+.order-agian text {
+    display: inline-block;
+    text-align: center;
+    width: 160rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    border-radius: 10rpx;
+    font-size: 26rpx;
+    background-color: #ffffff;
+    border: 1px solid #ff3333;
+    color: #ff3333;
+}
+.most-order {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100rpx;
+}
+.most-order image {
+    width: 60rpx;
+    height: 60rpx;
+    position: relative;
+    left: 50%;
+    margin-left: -30rpx;
+    margin-bottom: 20rpx;
+}
+.order-state {
+    width: 100%;
+    height: 200rpx;
+    line-height: 200rpx;
+    background-color: #ff6633;
+    padding: 0 24rpx;
+    display: flex;
+    flex-direction: row;
+}
+.order-state text {
+    color: #ffffff;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.order-state image {
+    width: 180rpx;
+    height: 120rpx;
+    margin-top:30rpx;
+}
+.logistics-info {
+    display: flex;
+    flex-direction: row;
+    padding: 20rpx 24rpx;
+    width: 100%;
+    border-bottom: 1px solid #f2f2f2;
+    background-color: #ffffff;
+}
+.logistics {
+    display: flex;
+    flex-direction: column;
+}
+ .logistics view text {
+    line-height: 40rpx;
+} 
+.logistics text, .goods-info view text {
+    line-height: 50rpx;
+    margin-right: 20rpx;
+    font-size: 26rpx;
+}
+.goods-info view text {
+    line-height: 40rpx;
+}
+.logistics-title {
+    font-weight: 700;
+}
+.goods-info, .order-information {
+    padding: 20rpx 24rpx;
+    background-color: #ffffff;
+}
+.arrow-right {
+    margin-top: 50rpx;
+}
+.order-list {
+    margin-top: 20rpx;
+}
+.order-information text {
+    line-height: 50rpx;
+    font-size: 24rpx;
+    color: #808080;
+}
+.exchange-goods {
+    background-color: #ffffff;
+    padding-top: 50rpx;
+    padding-bottom: 100rpx;
+}
+.exchange-goods text {
+    background-color: #dddddd;
+    text-align: center;
+    line-height: 70rpx;
+    width: 96%;
+    margin-left: 2%;
+    color: #333333;
+    display: inline-block;
+    border-radius: 0;
+    font-size: 30rpx;
+}

@@ -1,0 +1,53 @@
+<view class='new-address-box'>
+    <view class='new-address-list'>
+        <text class='new-address-title'>收货人：</text>
+        <input></input>
+    </view>
+    <view class='new-address-list'>
+        <text class='new-address-title'>联系方式：</text>
+        <input></input>
+    </view>
+    <view class='new-address-list'>
+        <text class='new-address-title'>所在地区：</text>
+        <view class="aaaa choice-address" bindtap="translate">
+            <text class="infoText">{{province}} {{city}} {{county}}</text>
+            <image src='/images/arrow-right.png' class='arrow-right'></image>
+        </view>
+    </view>
+    <view class='new-address-list'>
+        <text class='new-address-title'>详细地址：</text>
+        <input placeholder='街道，楼牌号等' class=''></input>
+    </view>
+    <view class='add-address-box'>
+        <text class=''>保存</text>
+    </view>
+    <!-- 选择地区插件 -->
+    <view class="animation-element-wrapper" animation="{{animation}}" style="visibility:{{show ? 'visible':'hidden'}}" bindtap="hiddenFloatView" data-id="444">
+        <view class="animation-element" catchtap="nono">
+            <text class="left-bt" catchtap="hiddenFloatView" data-id="555">取消</text>
+            <text class="right-bt" catchtap="hiddenFloatView" data-id="666">确定</text>
+            <view class="line"></view>
+
+            <picker-view indicator-style="height: 50rpx;" value="{{value}}" bindchange="bindChange" catchtap="nono">
+                <!--省-->
+                <picker-view-column>
+                    <view wx:for="{{provinces}}" wx:for-item="sheng" wx:key="">
+                        {{sheng.name}}
+                    </view>
+                </picker-view-column>
+                <!--地级市-->
+                <picker-view-column>
+                    <view wx:for="{{citys}}" wx:key="">
+                        {{item.name}}
+                    </view>
+                </picker-view-column>
+                <!--区县-->
+                <picker-view-column>
+                    <view wx:for="{{countys}}" wx:key="">
+                        {{item.name}}
+                    </view>
+                </picker-view-column>
+            </picker-view>
+        </view>
+    </view>
+</view>

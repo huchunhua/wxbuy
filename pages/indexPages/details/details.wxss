@@ -1,0 +1,266 @@
+.slide {
+    height: 500rpx;
+}
+.shopping-details {
+    width: 100%;
+    height: 500rpx;
+}
+.shopping-title {
+    padding: 20rpx 24rpx;
+}
+.shopping-title text {
+    line-height: 40rpx;
+    display: block;
+}
+.postage {
+    height: 60rpx;
+    line-height: 60rpx;
+    padding: 0 24rpx;
+    background-color: #eeeeee;
+    font-size: 26rpx;
+    position: relative;
+}
+.this-sales {
+    position: absolute;
+    right: 24rpx;
+}
+.this-shopping {
+    padding: 20rpx 0;
+    position: relative;
+    height: 60rpx;
+    border-bottom: 1px solid #dddddd;
+}
+.this-logo {
+    width: 40%;
+    height: 60rpx;
+    position: absolute;
+    left: 24rpx;
+}
+.this-shopping button {
+    position: absolute;
+    right: 24rpx;
+    width: 30%;
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 26rpx;
+    margin-right: 1rpx;
+}
+.details-footer {
+    line-height: 98rpx;
+    font-size: 28rpx;
+}
+.details-footer-nav1 {
+    width: 30%;
+}
+.details-footer-nav2, .details-footer-nav3 {
+    width: 40%;
+    background-color: #ff9999;
+    color: #ffffff;
+    font-size: 30rpx;
+}
+.details-footer-nav3 {
+    background-color: #dc2f37;
+}
+.assess {
+    position: relative;
+    padding: 10rpx 24rpx 20px 24rpx;
+}
+.addfooter {
+    display: flex;
+    flex-direction: column;
+    line-height: 45rpx;
+}
+.assess-title {
+    line-height: 60rpx;
+    font-size: 28rpx;
+}
+.assess-box text {
+    width: 30%;
+    height: 50rpx;
+    border-radius: 25rpx;
+    background-color: #ffcaca;
+    display: inline-block;
+    text-align: center;
+    font-size: 26rpx;
+    line-height: 50rpx;
+    margin-bottom: 10rpx;
+    margin-right: 5%;
+}
+.details-info image {
+    width: 100%;
+}
+.group-box {
+    padding-bottom: 98rpx;
+}
+.group-list {
+    position: relative;
+    height: 100rpx;
+    line-height: 100rpx;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 0 24rpx;
+}
+.group-list image {
+    width: 60rpx;
+    height: 60rpx;
+    border-radius: 50%;
+    position: absolute;
+    top: 20rpx;
+}
+.group-list .group-words {
+   margin-left: 100rpx;
+   font-size: 26rpx;
+   display: flex;
+   flex-direction: column;
+   line-height: 40rpx;
+   padding-top: 10rpx;
+}
+.group-list .group-words text {
+    font-size: 24rpx;
+}
+.group-list .group-button {
+    height: 50rpx;
+    line-height: 50rpx;
+    padding: 0 20rpx;
+    position: absolute;
+    right: 24rpx;
+    color: #ff3333;
+    border: 1px solid #ff3333;
+    border-radius: 10rpx;
+    background-color: #ffffff;
+    top: 25rpx;
+    font-size: 24rpx;
+}
+.group-title {
+    display: block;
+    height: 70rpx;
+    line-height: 70rpx;
+    padding: 0 24rpx;
+    background-color: #eeeeee;
+}
+.change-tip {
+    position: fixed;
+    bottom: 0;
+    height: 500rpx;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 98rpx;
+    border: 1px solid #ff0;
+    padding: 20rpx 0;
+    background-color: #ffffff;
+    display: none;
+}
+.tip-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 24rpx;
+    height: 180rpx;
+}
+.tip-content image {
+    width: 40%;
+    height: 160rpx;
+}
+.tip-content-words {
+    display: flex;
+    flex-direction: column;
+    height: 180rpx;
+    padding: 20rpx;
+    width: 60%;
+}
+.tip-content-words text {
+    display: block;
+    font-size: 26rpx;
+}
+.tip-spec {
+    margin-top: 180rpx; 
+    padding: 20rpx 24rpx;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    width: 100%;
+    margin-bottom: 20rpx;
+}
+.tip-spec view text {
+    width: 28%;
+    margin-right: 3%;
+    height: 50rpx;
+    border: 1px solid #ff3333;
+    font-size: 26rpx;
+    text-align: center;
+    line-height: 50rpx;
+    display: inline-block;
+}
+.tip-num {
+    padding: 0 24rpx;
+}
+.tip-num view {
+    display: flex;
+    flex-direction: row;
+    right: 24rpx;
+    position: absolute; 
+}
+.this-num {
+    width: 50rpx!important;
+    height: 50rpx;
+    line-height: 50rpx;
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+.tip-num .tip-num-title {
+    border: 0;
+    position: absolute;
+    left: 24rpx;
+    width: 40%;
+}
+.ensure {
+    position: relative;
+    width: 100%;
+    display: block;
+    background-color: #dc2f37;
+    color: #ffffff; 
+    height: 98rpx;
+    line-height: 98rpx;
+     margin-top: 80rpx;  
+    text-align: center;
+}
+.index-price {
+    font-size: 40rpx!important;
+    line-height: 80rpx!important;
+}
+.padding-content {
+    padding: 0 24rpx;
+}
+.footer-info view {
+    line-height: 60rpx;
+    font-size: 24rpx;
+    display: inline-block;
+    padding: 0 20rpx;
+    background-color: #dddddd;
+    border-radius: 10rpx;
+    margin:  10rpx 15rpx;
+}
+.footer-info .act {
+    background-color: #dc2f37;
+    color: #ffffff;
+}
+.ensure {
+    background-color: #dc2f37;
+}
+.shopping-info-num {
+    display: flex;
+    flex-direction: row;
+    padding: 20rpx 24rpx;
+    line-height: 50rpx;
+    position: relative;
+    height: 60rpx;
+    background-color: #ffffff;
+}
+.shopping-info-price {
+    position: absolute;
+}
+.shopping-info-button {
+    position: absolute;
+    right: 24rpx;
+}
+.this-num {
+    background-color: #eeeeee;
+}

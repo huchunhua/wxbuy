@@ -1,0 +1,76 @@
+.search-page {
+    padding: 0 24rpx;
+    display: flex;
+    flex-direction: column;
+}
+.search-title {
+    padding: 20rpx 0 0 0;
+    display: flex;
+    flex-direction: row;
+}
+.search-title icon {
+    margin-right: 10rpx;
+    vertical-align: middle;
+}
+.search-title text {
+    font-size: 28rpx;
+}
+.search-input {
+    display: flex;
+    flex-direction: row;
+    margin: 40rpx 0;
+}
+.search-input input {
+    width: 75%;
+    height: 60rpx;
+    border-radius: 10rpx;
+    background-color: #eeeeee;
+    color: #999999;
+    padding-left: 10rpx;
+    font-size: 26rpx;
+}
+.search-input button {
+    width: 20%;
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 26rpx;
+    background-color: #eeeeee;
+    border-radius: 10rpx;
+    margin-left: 4%;
+}
+.search-info {
+    display: flex;
+    flex-direction: column;
+}
+.search-info-title {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 60rpx;
+    font-size: 28rpx;
+}
+.info-title1 {
+    position: absolute;
+    left: 0;
+}
+.info-title2 {
+    position: absolute;
+    right: 0;
+    color: #ff3333;
+}
+.search-info-content view {
+    width: 22%;
+    height: 50rpx;
+    display: inline-block;
+    line-height: 50rpx;
+    background-color: #eeeeee;
+    color: #333333;
+    text-align: center;
+    margin-right: 4%;
+    margin-bottom: 20rpx;
+    border-radius: 10rpx;
+    font-size: 26rpx;
+}
+.color_red {
+    color: #dc2f37!important;
+}

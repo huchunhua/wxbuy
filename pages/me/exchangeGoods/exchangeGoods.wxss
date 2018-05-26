@@ -1,0 +1,67 @@
+page {
+    background-color: #f2f2f2;
+}
+.fight-groups {
+    display: flex;
+    flex-direction: row;
+    padding: 20rpx 24rpx;
+    border-bottom: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+.fight-groups image {
+    width: 40%;
+    height: 150rpx;
+}
+.shopping-info-words {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 5%;
+}
+.shopping-info-num {
+    display: flex;
+    flex-direction: row;
+    padding: 20rpx 24rpx;
+    line-height: 50rpx;
+    position: relative;
+    height: 60rpx;
+    background-color: #ffffff;
+}
+.change-list {
+    background-color: #ffffff;
+    margin-bottom: 20rpx;
+}
+.change-state {
+    line-height: 80rpx;
+    border-bottom: 1px solid #f2f2f2;
+    position: relative;
+    padding: 0 24rpx;
+}
+.arrow-right {
+    margin-top: 20rpx;
+}
+.change-time {
+    margin-top: 20rpx;
+}
+.change-complete {
+    position: absolute;
+    right: 24rpx;
+    color: #ff3333;
+}
+.order-agian {
+    text-align: right;
+    padding: 20rpx 24rpx;
+}
+.order-agian text {
+    display: inline-block;
+    text-align: center;
+    width: 160rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    border-radius: 10rpx;
+    font-size: 26rpx;
+    background-color: #ffffff;
+    border: 1px solid #ff3333;
+    color: #ff3333;
+    margin-left: 20rpx;
+}

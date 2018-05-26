@@ -1,0 +1,69 @@
+<view>
+    <view class='order-state'>
+        <text>交易成功</text>
+        <image src="/images/pay-success.png"></image>
+    </view>
+    
+    <view class='logistics-info'> 
+        <view class='logistics'>
+            <text class='logistics-title'>物流信息</text>
+            <view>
+                <text class='logistics'>四川省成都市高新区天府五街您的订单已签收。</text>
+                <text class='logistics-time'>2018-01-15 11:02</text>
+            </view>
+        </view>
+        <image src='/images/arrow-right.png' class='arrow-right'></image>
+    </view>
+    <view class='goods-info'>
+        <view>
+            <text class='logistics-title'> 收货人：</text>
+            <text>颜颜</text>
+            <text>18515770267</text>
+        </view>
+        <view>
+            <text class='logistics-title'>收获地址：</text>
+            <text>四川省成都市高新区天府五街</text>
+        </view>
+    </view>
+    <view class='order-list'>
+        <view class='order-neme'>
+            <image src='/images/shopping-logo.jpg' class='shopping-logo'></image>
+        </view>
+        <view class='order-detaiis' catchtap='onOrderDetails'>
+            <image src='/images/shopping-img2.jpg'></image>
+            <text>佰草集(HERBORISRT)水油平衡护肤套装(洗面奶爽肤水化妆水保湿化妆品套装)水油平衡护肤套装水油平衡护肤套装水油平衡护肤套装</text>
+        </view>
+        <view class='order-num'>
+            <text class='order-pay'>共 <text>1</text> 件商品</text>
+            <text class='order-pay'>实付款 <text>¥355.00</text></text>
+        </view>
+        <view class='order-agian'>
+            <text>再次购买</text>
+        </view>
+    </view>
+    <view class='order-information'>
+        <view>
+            <text>订单编号：</text>
+            <text>102365233633</text>
+        </view>
+        <view>
+            <text>下单时间：</text>
+            <text>2018-01-10 23:00</text>
+        </view>
+        <view>
+            <text>付款时间：</text>
+            <text>2018-01-10 23:00</text>
+        </view>
+        <view>
+            <text>发货时间：</text>
+            <text>2018-01-11 10:20</text>
+        </view>
+        <view>
+            <text>成交时间：</text>
+            <text>2018-01-15 18:00</text>
+        </view>
+    </view>
+    <view class='exchange-goods'>
+        <text catchtap='onChange'>申请退换货</text>
+    </view>
+</view>

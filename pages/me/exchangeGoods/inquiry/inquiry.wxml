@@ -1,0 +1,59 @@
+<view>
+    <view class='goods-info'>
+        <view>
+            <text> 售后单号：</text>
+            <text>20180115</text>
+        </view>
+        <view>
+            <text>申请时间：</text>
+            <text>2018-01-26 17:32:05</text>
+        </view>
+    </view>
+    <view class='inquiry-content'>
+        <view class='inquiry-list'>
+            <view class='inquiry-img'>
+                <image src='/images/logistics-select.png' class='logistics-select'></image>
+            </view>
+            <view class='inquiry-words'>
+                <text class='inquiry-info'>您的售后单20180115财务已退款，请您注意查收</text>
+                <text class='line-row'>2018-01-15 17:23:30</text>
+            </view>
+        </view>
+        <view class='inquiry-list'>
+            <view class='inquiry-img'>
+                <image src='/images/logistics.png' class='logistics'></image>
+            </view>
+            <view class='inquiry-words'>
+                <text class='inquiry-info'>您的售后单已提交退款申请</text>
+                <text class='line-row'>2018-01-15 17:23:30</text>
+            </view>
+        </view>
+        <view class='inquiry-list'>
+            <view class='inquiry-img'>
+                <image src='/images/logistics.png' class='logistics'></image>
+            </view>
+            <view class='inquiry-words'>
+                <text class='inquiry-info'>您的售后单20180115的商品已收到</text>
+                <text class='line-row'>2018-01-15 17:23:30</text>
+            </view>
+        </view>
+        <view class='inquiry-list'>
+            <view class='inquiry-img'>
+                <image src='/images/logistics.png' class='logistics'></image>
+            </view>
+            <view class='inquiry-words'>
+                <text class='inquiry-info'>您的售后单已审核通过，请客户将商品寄回.您的售后单已审核通过，请客户将商品寄回您的售后单已审核通过，请客户将商品寄回</text>
+                <text class='line-row'>2018-01-15 17:23:30</text>
+            </view>
+        </view>
+        <view class='inquiry-list'>
+            <view class='inquiry-img'>
+                <image src='/images/logistics.png' class='logistics'></image>
+            </view>
+            <view class='inquiry-words'>
+                <text class='inquiry-info'>您的售后已申请成功，等待售后审核中</text>
+                <text class='line-row'>2018-01-15 17:23:30</text>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,15 @@
+<view>
+    <view class='fight-groups'>
+        <image src='/images/shopping-img2.jpg'></image>
+        <view class='shopping-info-words'>
+            <text>良品铺子 坚果 炒货 板栗仁 栗子 开口笑甘栗120g</text>
+            <text class='price-g'>原价:<text>¥18.9</text></text>
+            <text class='index-price'>拼团:<text>¥15.9</text></text>
+        </view>
+    </view>
+    <view class='groups-time'>
+        <text class='groups-p'>已开团，离成团还差<text class='group-rad'>1</text>人</text>
+        <text>剩余<text class='time-bg'>0</text>天<text class='time-bg'>08</text>:<text class='time-bg'>43</text>:<text class='time-bg'>46</text>自动结束</text>
+    </view>
+    <text class='add-groups'>加入拼团</text>
+</view>
